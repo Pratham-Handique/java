@@ -1,8 +1,8 @@
 package arraylist;
 // Sort an ArrayList of Integers:
 import java.util.*;
-class Main {
-  public static void main(String[] args) {
+class second {
+  public static void second(String[] args) {
     ArrayList<Integer> myNumbers = new ArrayList<Integer>();
     myNumbers.add(33);
     myNumbers.add(15);

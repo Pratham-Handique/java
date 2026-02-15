@@ -8,7 +8,7 @@ interface SecondInterface {
   public void myOtherMethod(); // interface method
 }
 
-class DemoClass implements FirstInterface, SecondInterface {
+class second implements FirstInterface, SecondInterface {
   public void myMethod() {
     System.out.println("Some text..");
   }
@@ -19,7 +19,7 @@ class DemoClass implements FirstInterface, SecondInterface {
 
 class Main {
   public static void main(String[] args) {
-    DemoClass myObj = new DemoClass();
+    second myObj = new second();
     myObj.myMethod();
     myObj.myOtherMethod();
   }
